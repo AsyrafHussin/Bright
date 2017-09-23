@@ -3,7 +3,7 @@
 /**
  * Routing
  */
-require '../core/Router.php';
+require $_SERVER['DOCUMENT_ROOT'].'/core/Router.php';
 
 $router = new Router();
 
