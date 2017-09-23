@@ -1,5 +1,7 @@
 <?php
 
+namespace app\Controllers;
+
 /**
  * Posts controller
  */
