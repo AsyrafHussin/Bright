@@ -3,7 +3,6 @@
 # Bright
 PHP Micro-Framework by Asyraf Hussin
 
-<br>
 ## Status
 Still in development
 
