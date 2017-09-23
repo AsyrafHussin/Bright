@@ -28,9 +28,6 @@ class Router
      */
     public function add($route, $params = [])
     {
-        // remove first "/" from $route
-        $route = substr($route,1);
-
         // Convert the route to a regular expression: escape forward slashes
         $route = preg_replace('/\//', '\\/', $route);
 

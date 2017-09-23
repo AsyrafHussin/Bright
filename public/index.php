@@ -7,11 +7,17 @@ require $_SERVER['DOCUMENT_ROOT'].'/core/Router.php';
 
 $router = new Router();
 
-// Add routes
-$router->add('',[
-            'controller' => 'Home',
-            'action'     => 'index'
-        ]);
+// Add the routes
+$router->add('', ['controller' => 'Home', 'action' => 'index']);
+$router->add('posts', ['controller' => 'Posts', 'action' => 'index']);
+$router->add('{controller}/{action}');
+$router->add('{controller}/{id:\d+}/{action}');
+    
+// Display the routing table
+echo '<pre>';
+//var_dump($router->getRoutes());
+echo htmlspecialchars(print_r($router->getRoutes(), true));
+echo '</pre>';
 
 // Match the requested route
 $url = $_SERVER["REQUEST_URI"];
