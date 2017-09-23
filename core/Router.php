@@ -63,8 +63,7 @@ class Router
      */
     public function match($url)
     {
-        // remove first "/" from $url
-        $url = substr($url,1);
+        $url = $this->removeFirstBackSlash($url);
 
         // Match to the fixed URL format /controller/action
         //  $reg_exp = "/^(?P<controller>[a-z-]+)\/(?P<action>[a-z-]+)$/";
@@ -97,7 +96,7 @@ class Router
     {
         return $this->params;
     }
-    
+
     /**
      * Dispatch the route, creating the controller object and running the
      * action method
@@ -156,5 +155,18 @@ class Router
     protected function convertToCamelCase($string)
     {
         return lcfirst($this->convertToStudlyCaps($string));
+    }
+
+    /**
+     * Remove first back slash from url,
+     * e.g. /post => post
+     *
+     * @param string $string The string of url
+     *
+     * @return string
+     */
+    protected function removeFirstBackSlash($string)
+    {
+        return substr($string,1);
     }
 }
