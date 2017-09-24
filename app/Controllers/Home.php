@@ -37,6 +37,9 @@ class Home extends \Core\Controller
     public function indexAction()
     {
         //echo 'Hello from the index action in the Home controller!';
-        View::render('index.php');
+        View::render('index.php', [
+              'name' => 'Bright Framework',
+              'author' => 'Asyraf Hussin'
+            ]);
     }
 }
