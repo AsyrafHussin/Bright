@@ -6,6 +6,11 @@ PHP Micro-Framework by Asyraf Hussin
 ## Status
 Still in development
 
+## Requirements
+To use this framework you will need to make sure your server meets the following requirements:
+
+* PHP >= 7.0.0
+
 ## Installation
 
 * Clone this repo
