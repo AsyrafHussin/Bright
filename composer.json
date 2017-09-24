@@ -1,0 +1,10 @@
+{
+    "name": "asyrafhussin/bright",
+    "description": "PHP Micro-Framework",
+    "keywords": ["php", "php-framework"],
+    "license": "MIT",
+    "type": "project",
+    "require": {
+        "twig/twig": "~2.0"
+    }
+}
