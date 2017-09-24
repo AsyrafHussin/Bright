@@ -1,0 +1,14 @@
+#!/usr/bin/php
+<?php
+$command = $argv[1];
+
+switch ($command) {
+    case 'serve':
+        echo "\033[33m Bright Development Server started \n \033[0mListening on http://localhost:8000\n";
+        shell_exec('php -S localhost:8000 public/index.php');
+        break;
+    
+    default:
+        break;
+}
+?>
