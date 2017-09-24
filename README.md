@@ -36,5 +36,8 @@ Installation using [Composer](https://getcomposer.org/) coming soon...
 ## Documentation
 Coming soon...
 
+## Contributing
+If you spot any errors, typos or missing information, please submit a pull request.
+
 ## Credits
 * Icons made by [Freepik](http://www.freepik.com) from [www.flaticon.com](https://www.flaticon.com/) is licensed by [CC 3.0 BY](http://creativecommons.org/licenses/by/3.0/)
