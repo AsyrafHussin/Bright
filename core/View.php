@@ -17,7 +17,7 @@ class View
      */
     public static function render($view)
     {
-        $file = "../App/Views/$view";  // relative to Core directory
+        $file = __DIR__."/../App/Views/$view";  // relative to Core directory
 
         if (is_readable($file)) {
             require $file;
