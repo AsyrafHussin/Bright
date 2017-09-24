@@ -36,10 +36,15 @@ class Home extends \Core\Controller
      */
     public function indexAction()
     {
-        //echo 'Hello from the index action in the Home controller!';
         View::render('index.php', [
               'name' => 'Bright Framework',
               'author' => 'Asyraf Hussin'
-            ]);
+            ]);       
+             
+        // Render with twig     
+        // View::renderTemplate('index.php', [
+        //   'name' => 'Bright Framework',
+        //   'author' => 'Asyraf Hussin'
+        // ]);
     }
 }

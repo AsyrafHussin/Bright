@@ -1,6 +1,11 @@
 <?php
 
 /**
+ * Twig Template Engine
+ */
+// require_once dirname(__DIR__) . '/vendor/Twig/lib/Twig/Autoloader.php';
+
+/**
  * Autoload
  */
 spl_autoload_register(function($class){
