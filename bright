@@ -1,14 +1,22 @@
 #!/usr/bin/php
 <?php
+
+// include command
+require __DIR__.'/Core/Command.php';
+
 $command = $argv[1];
 
 switch ($command) {
     case 'serve':
-        echo "\033[33m Bright Development Server started \n \033[0mListening on http://localhost:8000\n";
-        shell_exec('php -S localhost:8000 public/index.php');
+        Core\Command::serve((isset($argv[2])) ? $argv[2] : null);
         break;
+
+    case 'list':
+        Core\Command::listCommand();
+        break;    
     
     default:
+        Core\Command::commandNotFound($command);
         break;
 }
 ?>

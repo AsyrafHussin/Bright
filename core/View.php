@@ -11,7 +11,7 @@ class View
     /**
      * Render a view file
      *
-     * @param string $view  The view file
+     * @param array  $params Parameters (controller, action, etc.)
      *
      * @return void
      */
