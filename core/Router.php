@@ -109,6 +109,8 @@ class Router
      */
     public function dispatch($url)
     {
+        $url = $this->removeQueryStringVariables($url);
+        
         if ($this->match($url)) {
             $controller = $this->params['controller'];
             $controller = $this->convertToStudlyCaps($controller);
@@ -171,5 +173,39 @@ class Router
     protected function removeFirstBackSlash($string)
     {
         return substr($string,1);
+    }
+
+    /**
+     * Remove the query string variables from the URL (if any). As the full
+     * query string is used for the route, any variables at the end will need
+     * to be removed before the route is matched to the routing table. For
+     * example:
+     *
+     *   URL                           $_SERVER['REQUEST_URI']  Route
+     *   -------------------------------------------------------------------
+     *   localhost                     '/'                        ''
+     *   localhost/?                   '/'                        ''
+     *   localhost/?page=1             /page=1                    ''
+     *   localhost/posts?page=1        /posts?page=1              posts
+     *   localhost/posts/index         /posts/index               posts/index
+     *   localhost/posts/index?page=1  /posts/index?page=1        posts/index
+     *
+     * @param string $url The full URL
+     *
+     * @return string The URL with the query string variables removed
+     */
+    protected function removeQueryStringVariables($url)
+    {
+        if ($url != '') {
+            $parts = explode('?', $url, 2);
+
+            if (strpos($parts[0], '=') === false) {
+                $url = $parts[0];
+            } else {
+                $url = '';
+            }
+        }
+
+        return $url;
     }
 }
