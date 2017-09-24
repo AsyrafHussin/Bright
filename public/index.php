@@ -1,9 +1,9 @@
 <?php
 
 /**
- * Twig Template Engine
+ * Register The Auto Loader from Composer
  */
-// require_once dirname(__DIR__) . '/vendor/Twig/lib/Twig/Autoloader.php';
+require __DIR__.'/../vendor/autoload.php';
 
 /**
  * Autoload

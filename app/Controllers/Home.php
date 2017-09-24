@@ -36,15 +36,15 @@ class Home extends \Core\Controller
      */
     public function indexAction()
     {
-        View::render('index.php', [
-              'name' => 'Bright Framework',
-              'author' => 'Asyraf Hussin'
-            ]);       
+        // View::render('index.php', [
+        //       'name' => 'Bright Framework',
+        //       'author' => 'Asyraf Hussin'
+        //     ]);       
              
         // Render with twig     
-        // View::renderTemplate('index.php', [
-        //   'name' => 'Bright Framework',
-        //   'author' => 'Asyraf Hussin'
-        // ]);
+        View::renderTemplate('index.php', [
+          'name' => 'Bright Framework',
+          'author' => 'Asyraf Hussin'
+        ]);
     }
 }

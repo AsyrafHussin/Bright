@@ -11,10 +11,10 @@
 </head>
 <body>
       <h1>
-          <?php echo htmlspecialchars($name); ?>
+          {{ name }}
       </h1>
       <p>
-          by <?php echo htmlspecialchars($author); ?>
+          by {{ author }}
       </p>
 </body>
 </html>
