@@ -13,11 +13,13 @@ To use this framework you will need to make sure your server meets the following
 
 ## Installation
 
-* Clone this repo
-
+* Using [Composer](https://getcomposer.org/)
 ```bash
-$ git clone https://github.com/AsyrafHussin/Bright.git"
+$ composer create-project --prefer-dist "asyrafhussin/bright v0.1-beta-1" [project-name]
 ```
+
+## Usage
+Step to follow after finish create project
 
 * Install dependencies
 
@@ -30,8 +32,6 @@ $ composer install
 ```bash
 $ php bright serve
 ```
-
-Installation using [Composer](https://getcomposer.org/) coming soon...
 
 ## Documentation
 Coming soon...
