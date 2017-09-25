@@ -11,5 +11,6 @@ $router->add('', ['controller' => 'Home', 'action' => 'index']);
 $router->add('{controller}/{action}');
 $router->add('{controller}/{id:\d+}/{action}');
 $router->add('sub/{controller}/{action}', ['namespace' => 'Sub']);
-    
+
+// run    
 $router->run();
