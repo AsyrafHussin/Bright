@@ -18,15 +18,6 @@ To use this framework you will need to make sure your server meets the following
 $ composer create-project --prefer-dist "asyrafhussin/bright dev-master" [project-name]
 ```
 
-## Usage
-Step to follow after finish create project
-
-* Install dependencies
-
-```bash
-$ composer install
-```
-
 * Start development server at [http://localhost:8000](http://localhost:8000)
 
 ```bash
