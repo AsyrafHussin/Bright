@@ -2,21 +2,21 @@
 <?php
 
 // include command
-require __DIR__.'/Core/Command.php';
+require __DIR__.'/vendor/autoload.php';
 
 $command = $argv[1];
 
 switch ($command) {
     case 'serve':
-        Core\Command::serve((isset($argv[2])) ? $argv[2] : null);
+        Bright\Console\Command::serve((isset($argv[2])) ? $argv[2] : null);
         break;
 
     case 'list':
-        Core\Command::listCommand();
+        Bright\Console\Command::listCommand();
         break;    
     
     default:
-        Core\Command::commandNotFound($command);
+        Bright\Console\Command::commandNotFound($command);
         break;
 }
 ?>

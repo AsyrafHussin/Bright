@@ -2,10 +2,13 @@
 
 namespace App\Controllers\Sub;
 
+use Bright\Controller\Controller;
+use Bright\View\View;
+
 /**
  * Posts controller
  */
-class Posts extends \Core\Controller
+class Posts extends Controller
 {
 
     /**

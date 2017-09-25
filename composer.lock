@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/AsyrafHussin/Bright-Core.git",
-                "reference": "50fb890bacdc3003dc16bffc1f16479ff3ca4258"
+                "reference": "20b7da701ebdfc56189eac6b8060da81a27f828c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/AsyrafHussin/Bright-Core/zipball/50fb890bacdc3003dc16bffc1f16479ff3ca4258",
-                "reference": "50fb890bacdc3003dc16bffc1f16479ff3ca4258",
+                "url": "https://api.github.com/repos/AsyrafHussin/Bright-Core/zipball/20b7da701ebdfc56189eac6b8060da81a27f828c",
+                "reference": "20b7da701ebdfc56189eac6b8060da81a27f828c",
                 "shasum": ""
             },
             "type": "library",
@@ -42,11 +42,11 @@
                 "php",
                 "php-framework"
             ],
-            "time": "2017-09-25T02:17:49+00:00"
+            "time": "2017-09-25T02:30:34+00:00"
         },
         {
             "name": "symfony/polyfill-mbstring",
-            "version": "v1.5.0",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-mbstring.git",
@@ -105,16 +105,16 @@
         },
         {
             "name": "twig/twig",
-            "version": "v2.4.3",
+            "version": "2.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/Twig.git",
-                "reference": "eab7c3288ae6603d7d6f92b531626af2b162d1f2"
+                "reference": "103cae817d68b56ddcb50c051a6ed7980d746409"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig/zipball/eab7c3288ae6603d7d6f92b531626af2b162d1f2",
-                "reference": "eab7c3288ae6603d7d6f92b531626af2b162d1f2",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/103cae817d68b56ddcb50c051a6ed7980d746409",
+                "reference": "103cae817d68b56ddcb50c051a6ed7980d746409",
                 "shasum": ""
             },
             "require": {
@@ -167,7 +167,7 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2017-06-07T18:47:58+00:00"
+            "time": "2017-08-19T17:43:10+00:00"
         }
     ],
     "packages-dev": [],

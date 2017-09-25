@@ -2,11 +2,12 @@
 
 namespace App\Controllers;
 
-use Core\View;
+use Bright\Controller\Controller;
+use Bright\View\View;
 /**
  * Home controller
  */
-class Home extends \Core\Controller
+class Home extends Controller
 {
     /**
      * Before filter
