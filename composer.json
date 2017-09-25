@@ -6,7 +6,7 @@
     "homepage": "https://brightframework.psm.my",
     "type": "project",
     "require": {
-        "asyrafhussin/bright-core": "dev-master"
+        "asyrafhussin/bright-core": "0.1-dev"
     },    
     "autoload": {
         "psr-4": {
