@@ -4,6 +4,7 @@
     "keywords": ["php", "php-framework"],
     "license": "MIT",
     "type": "project",
+    "minimum-stability": "dev",
     "require": {
         "twig/twig": "~2.0"
     },    
