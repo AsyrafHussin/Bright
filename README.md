@@ -13,7 +13,7 @@ To use this framework you will need to make sure your server meets the following
 
 ## Installation
 
-* Using [Composer](https://getcomposer.org/)
+* Create new project using [Composer](https://getcomposer.org/)
 ```bash
 $ composer create-project --prefer-dist "asyrafhussin/bright v0.1-beta-1" [project-name]
 ```
