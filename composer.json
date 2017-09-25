@@ -13,5 +13,6 @@
             "Core\\": "Core/",
             "App\\": "App/"
         }
-    }
+    },
+    "minimum-stability": "dev"
 }
