@@ -4,19 +4,11 @@
 // include command
 require __DIR__.'/vendor/autoload.php';
 
-$command = $argv[1];
+// Create console application
+$console = new Bright\Console\Command();
 
-switch ($command) {
-    case 'serve':
-        Bright\Console\Command::serve((isset($argv[2])) ? $argv[2] : null);
-        break;
+// register all commands
+$console->registerCommand();
 
-    case 'list':
-        Bright\Console\Command::listCommand();
-        break;    
-    
-    default:
-        Bright\Console\Command::commandNotFound($command);
-        break;
-}
-?>
+// Run it
+$console->run();
