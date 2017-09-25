@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "cbc4942129e6fa1eb0824dca05f46583",
+    "content-hash": "e7e7b1dd0a763103a039fd6b3d9f1244",
     "packages": [
         {
             "name": "asyrafhussin/bright-core",
@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/AsyrafHussin/Bright-Core.git",
-                "reference": "7c7d8c165cd7dcad206116c542a5a7727fa9766a"
+                "reference": "55bbe061e5ea5a245155934826c77bb2c4f6645c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/AsyrafHussin/Bright-Core/zipball/7c7d8c165cd7dcad206116c542a5a7727fa9766a",
-                "reference": "7c7d8c165cd7dcad206116c542a5a7727fa9766a",
+                "url": "https://api.github.com/repos/AsyrafHussin/Bright-Core/zipball/55bbe061e5ea5a245155934826c77bb2c4f6645c",
+                "reference": "55bbe061e5ea5a245155934826c77bb2c4f6645c",
                 "shasum": ""
             },
             "require": {
@@ -50,7 +50,7 @@
                 "php",
                 "php-framework"
             ],
-            "time": "2017-09-25T02:47:29+00:00"
+            "time": "2017-09-25T14:00:45+00:00"
         },
         {
             "name": "symfony/polyfill-mbstring",
