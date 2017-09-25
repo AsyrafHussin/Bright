@@ -5,7 +5,7 @@
  */
 require __DIR__.'/../vendor/autoload.php';
 
-$router = new Core\Router();
+$router = new Bright\Routing\Router();
 
 //Add the routes
 $router->add('', ['controller' => 'Home', 'action' => 'index']);

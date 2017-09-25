@@ -4,8 +4,46 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "c125d928dd6fd9d0209d2b7202ba73e4",
+    "content-hash": "aa169726db1e8709b1a956777ea71f0b",
     "packages": [
+        {
+            "name": "asyrafhussin/bright-core",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/AsyrafHussin/Bright-Core.git",
+                "reference": "50fb890bacdc3003dc16bffc1f16479ff3ca4258"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/AsyrafHussin/Bright-Core/zipball/50fb890bacdc3003dc16bffc1f16479ff3ca4258",
+                "reference": "50fb890bacdc3003dc16bffc1f16479ff3ca4258",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Bright\\": "Bright/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Asyraf Hussin",
+                    "email": "asyrafhussin4@gmail.com"
+                }
+            ],
+            "description": "PHP Micro-Framework",
+            "homepage": "https://brightframework.psm.my",
+            "keywords": [
+                "php",
+                "php-framework"
+            ],
+            "time": "2017-09-25T02:17:49+00:00"
+        },
         {
             "name": "symfony/polyfill-mbstring",
             "version": "v1.5.0",
@@ -134,8 +172,10 @@
     ],
     "packages-dev": [],
     "aliases": [],
-    "minimum-stability": "stable",
-    "stability-flags": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "asyrafhussin/bright-core": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],

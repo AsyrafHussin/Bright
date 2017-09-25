@@ -6,7 +6,8 @@
     "homepage": "https://brightframework.psm.my",
     "type": "project",
     "require": {
-        "twig/twig": "~2.0"
+        "twig/twig": "~2.0",
+        "asyrafhussin/bright-core": "dev-master"
     },    
     "autoload": {
         "psr-4": {
