@@ -3,6 +3,7 @@
     "description": "PHP Micro-Framework",
     "keywords": ["php", "php-framework"],
     "license": "MIT",
+    "homepage": "https://brightframework.psm.my",
     "type": "project",
     "require": {
         "twig/twig": "~2.0"
