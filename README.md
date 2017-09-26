@@ -1,7 +1,7 @@
 <div align="center">
 <img width=150 src ="logo.svg" />
 
-<br> <br>
+<br>
 
 <h1> Bright </h1> 
 <p> PHP Micro-Framework by Asyraf Hussin </p></div>
