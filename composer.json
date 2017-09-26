@@ -6,6 +6,7 @@
     "homepage": "https://brightframework.psm.my",
     "type": "project",
     "require": {
+        "php": ">=7.0.0",
         "asyrafhussin/bright-core": "^0.1.0@dev"
     },    
     "autoload": {
