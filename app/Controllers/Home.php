@@ -7,8 +7,18 @@ use Bright\View\View;
 /**
  * Home controller
  */
-class Home extends Controller
+class Home
 {
+    public function index()
+    {
+        echo "Hello from home controller";    
+    }
+
+    public function test($any)
+    {
+       echo "Test from home controller ".$any;    
+    }
+
     /**
      * Before filter
      *

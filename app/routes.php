@@ -3,14 +3,25 @@
 /**
  * Routes
  */
+ use Bright\Routing\Route;
 
-$router = new Bright\Routing\Router();
+// Example get method
+ Route::get('/', function() {
+  echo 'Hello world!';
+}); 
 
-//Add the routes
-$router->add('', ['controller' => 'Home', 'action' => 'index']);
-$router->add('{controller}/{action}');
-$router->add('{controller}/{id:\d+}/{action}');
-$router->add('sub/{controller}/{action}', ['namespace' => 'Sub']);
+// Example post method
+ Route::post('/post', function() {
+  echo 'Testing post';
+});
 
-// run    
-$router->run();
+// Example pass the namespace path to a controller
+Route::get('/home', 'App\Controllers\Home@index');
+Route::get('/home/(:any)', 'App\Controllers\Home@test');
+
+// Runs callback for the given request
+Route::dispatch();
+
+
+
+
