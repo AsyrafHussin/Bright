@@ -11,7 +11,10 @@ class Home
 {
     public function index()
     {
-        echo "Hello from home controller";    
+        View::renderTemplate('index.php', [
+          'name' => 'Bright Framework',
+          'author' => 'Asyraf Hussin'
+        ]);
     }
 
     public function test($any)

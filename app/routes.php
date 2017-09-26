@@ -6,7 +6,7 @@
  use Bright\Routing\Route;
 
 // Example get method
- Route::get('/', function() {
+ Route::get('/hello', function() {
   echo 'Hello world!';
 }); 
 
@@ -16,7 +16,7 @@
 });
 
 // Example pass the namespace path to a controller
-Route::get('/home', 'App\Controllers\Home@index');
+Route::get('/', 'App\Controllers\Home@index');
 Route::get('/home/(:any)', 'App\Controllers\Home@test');
 
 // Runs callback for the given request
