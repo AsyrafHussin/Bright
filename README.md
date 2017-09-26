@@ -3,7 +3,7 @@
 </div>
 
 <h1 align="center"> Bright </h1> 
-<p align="center"> PHP Micro-Framework by Asyraf Hussin </p>
+<p align="center"> PHP Micro-Framework by <a href="https://github.com/AsyrafHussin">Asyraf Hussin</a></p>
 
 ## Status
 Still in development
